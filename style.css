@@ -50,7 +50,10 @@ padding: 15px;
 }
 
 .testimonial {
- background-color: #e5e7eb;
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+
 }
 
 .call-to-action {
@@ -60,6 +63,7 @@ background-color: #3882f6
 u {
     display: flex;
     margin-left: auto;
+    align-content: space-between
 }
 
 li {
