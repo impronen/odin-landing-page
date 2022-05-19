@@ -10,22 +10,31 @@ flex-direction: row;
 align-items: center;
 background-color: #1f2937;
 color: #F9FAF8;
+padding: 8px;
 }
 
 .main-content {
-
+display: flex;
+flex-direction: column;
 }
 
 .top-hero {
-
+display: flex;
+flex-direction: row;
+background-color: #1f2937;
+color: #F9FAF8;
+padding: 15px;
 }
 
 .introduction {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .main-image {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .information-images {
@@ -41,11 +50,11 @@ color: #F9FAF8;
 }
 
 .testimonial {
-
+ background-color: #e5e7eb;
 }
 
 .call-to-action {
-
+background-color: #3882f6
 }
 
 u {
@@ -59,5 +68,6 @@ li {
 }
 
 .footer {
-
+    background-color: #1f2937;
+    color: #F9FAF8;
 }
