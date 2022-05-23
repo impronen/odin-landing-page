@@ -132,6 +132,15 @@ li {
     border-radius: 4px;
 }
 
+blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    width: 500px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
 .footer {
     display: flex;
     justify-content: center;
