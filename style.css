@@ -80,7 +80,8 @@ justify-content: space-evenly;
 }
 
 .call-to-action {
-background-color: #3882f6
+    display: flex;
+    background-color: #3882f6
 }
 
 u {
