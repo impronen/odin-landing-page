@@ -133,14 +133,8 @@ blockquote {
     text-align: end;
 }
 
-.button2 {
-    background-color: transparent;
-    color: white;
-    font-weight: bold;
-    margin: 30px;
-    border: 1px solid #F9FAF8; 
-    border-radius: 4px;
-}
+/* This section has the call to action. It has a div with text and a button. 
+ The text section inherits all styling from the main container but the button has it's own.*/
 
 .call-to-action {
     display: flex;
@@ -152,6 +146,15 @@ blockquote {
     border-radius: 4px;
     background-color: #3882f6;
     color: white;
+}
+
+.button2 {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+    border: 1px solid #F9FAF8; 
+    border-radius: 4px;
 }
 
 /*These list item stylings are applied universally but in this instance only used in the header. */
