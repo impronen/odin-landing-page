@@ -9,7 +9,8 @@ This project is an assignment in The Odin Project. The [overall design](https://
 ### What I learned
 
 - Using Flexbox to position elements on a page. Especially how to use nested elements to create varied but consistent look.
+- Getting a more clear picture of how css cascades and how to use it to simplify things
 - Practicing how to simplify my design - making the design more streamlined
-- Getting comfortable with GIT and GITHUB - especially how important it is to commit often and try to wirte descriptive and concice commit logs
+- Getting comfortable with GIT and GITHUB - especially how important it is to commit often and try to write descriptive and concise commit logs
 - Effectively using Inspect on Chrome to see my code in action
 - Patience
