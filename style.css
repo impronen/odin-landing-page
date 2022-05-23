@@ -15,15 +15,17 @@ padding: 8px;
 
 .main-content {
 display: flex;
+flex: 1;
 flex-direction: column;
 }
 
 .top-hero {
 display: flex;
 flex-direction: row;
+justify-content: space-around;
+align-items: center;
 background-color: #1f2937;
 color: #F9FAF8;
-padding: 15px;
 }
 
 .introduction {
@@ -35,6 +37,7 @@ padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 25px;
 }
 
 .information-images {
@@ -42,7 +45,10 @@ padding: 15px;
 }
 
 .image-container {
-
+display: flex;
+flex-direction: row;
+margin: 40px;
+justify-content: space-evenly;
 }
 
 .image-text {
@@ -63,7 +69,8 @@ background-color: #3882f6
 u {
     display: flex;
     margin-left: auto;
-    align-content: space-between
+    align-content: space-between;
+    gap: 8px;
 }
 
 li {
@@ -75,6 +82,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
     background-color: #1f2937;
     color: #F9FAF8;
     font-size: small;
