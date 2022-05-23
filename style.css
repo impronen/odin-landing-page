@@ -55,11 +55,11 @@ flex-direction: column;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-padding: 20px 0px 40px 80px;
+padding: 20px 0px 40px 90px;
 }
 
 .introduction, .main-image {
-    width: 400px;
+    width: 430px;
     height: 300px;
 }
 
