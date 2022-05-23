@@ -185,4 +185,5 @@ li {
     font-size: small;
     padding: 15px;
     flex-shrink: 0;
+    text-align: center;
 }
