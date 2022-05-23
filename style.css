@@ -65,14 +65,12 @@ padding-top: 40px;
 }
 
 .introduction {
-    display: flex;
-    flex-direction: column;
+width: 270px;
 }
 
 .main-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    height: auto;
 }
 
 .button-1 {
