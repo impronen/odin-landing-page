@@ -1,7 +1,9 @@
+
 body {
     font-family: roboto, -apple-system, BlinkMacSystemFont,'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0; 
 }
 
 /* General rules for all items, except the footer */
@@ -20,10 +22,9 @@ body {
 .header {
 display: flex;
 flex-direction: row;
-justify-content: first baseline;
+justify-content: space-around;
 align-items: center;
-padding-bottom: 40px;
-padding-top: 40px;
+padding-bottom: 20px;
 }
 
 .header-logo {
@@ -53,7 +54,7 @@ flex-direction: column;
 .top-hero {
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-around;
 align-items: center;
 padding-bottom: 40px;
 padding-top: 40px;
@@ -63,18 +64,15 @@ padding-top: 40px;
     display: flex;
     flex-direction: column;
     width: 350px;
-    margin: auto;
 }
 
 .main-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
 .button-1 {
-    justify-content: flex-start;
     width: max-content;
     padding: 7px 15px;
     border-radius: 4px;
