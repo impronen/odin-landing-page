@@ -25,7 +25,6 @@ flex-direction: row;
 justify-content: space-around;
 align-items: center;
 padding-bottom: 20px;
-padding-inline-start: 0px;
 }
 
 .header-logo {
@@ -40,6 +39,7 @@ padding-inline-start: 0px;
     display: inline;
     color: #E5E7EB;
     list-style-type: none;
+    
 }
 
 /* Content below the header */
