@@ -40,8 +40,6 @@ padding-inline-start: 0px;
     display: inline;
     color: #E5E7EB;
     list-style-type: none;
-    padding: 8px;
-
 }
 
 /* Content below the header */
@@ -57,7 +55,7 @@ flex-direction: column;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-padding: 20px 0px 40px 69px;
+padding: 20px 0px 40px 80px;
 }
 
 .introduction, .main-image {
