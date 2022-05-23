@@ -6,13 +6,7 @@ body {
 
 /* General rules for all items, except the footer */
 
-.everything-but-footer {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    flex: 1 0 auto;
-    justify-content: center;
-}
+
 
 /*Stylings shaded by the header and hero*/
 
@@ -81,7 +75,7 @@ padding-top: 40px;
 
 .button-1 {
     justify-content: flex-start;
-    width: min-content;
+    width: max-content;
     padding: 7px 15px;
     border-radius: 4px;
     background-color: #3882f6;
@@ -138,10 +132,11 @@ blockquote {
     font-size: 36px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+    width: 15em;
 }
 
 .testimonial-author {
-    padding: 0px 250px 20px 250px;
+    padding: 0px 350px 20px 350px;
     margin: 0px 0 20px 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
