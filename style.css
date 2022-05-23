@@ -54,16 +54,19 @@ flex-direction: column;
 .top-hero {
 display: flex;
 flex-direction: row;
-justify-content: space-around;
-align-items: center;
-padding-bottom: 40px;
+justify-content: space-evenly;
 padding-top: 40px;
+}
+
+.introduction, .main-image {
+    width: 400px;
+    height: 300px;
+    padding: 15px;
 }
 
 .introduction {
     display: flex;
     flex-direction: column;
-    width: 350px;
 }
 
 .main-image {
