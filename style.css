@@ -4,6 +4,13 @@ body {
     flex-direction: column;
 }
 
+.everything-but-footer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
 .header {
 display: flex;
 flex-direction: row;
@@ -13,9 +20,10 @@ color: #F9FAF8;
 padding: 8px;
 }
 
+
+
 .main-content {
 display: flex;
-flex: 1;
 flex-direction: column;
 }
 
@@ -87,4 +95,5 @@ li {
     color: #F9FAF8;
     font-size: small;
     padding: 15px;
+    flex-shrink: 0;
 }
