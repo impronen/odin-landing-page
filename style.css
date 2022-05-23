@@ -114,7 +114,8 @@ justify-content: space-evenly;
     border-radius: 4px;
 }
 
-/* This section consists of the testimonial main text. Contains a nested blockquote and a seperate container for the author. */
+/* This section consists of the testimonial main text. 
+Contains a nested blockquote and a seperate container for the author. */
 
 .testimonial {
     background-color: #E5E7EB;
@@ -146,7 +147,7 @@ blockquote {
 }
 
 /* This section has the call to action. It has a div with text and a button. 
- The text section inherits all styling from the main container but the button has it's own.*/
+The text section inherits all styling from the main container but the button has it's own.*/
 
 .call-to-action {
     display: flex;
