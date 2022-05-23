@@ -89,6 +89,7 @@ justify-content: space-evenly;
     margin-bottom: 40px;
     border-radius: 4px;
     background-color: #3882f6;
+    color: white;
 }
 
 u {
@@ -103,9 +104,24 @@ li {
     padding: 5px;
 }
 
+.button-1 {
+    justify-content: flex-start;
+    width: min-content;
+    padding: 7px 15px;
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
 
 .button2 {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
     margin: 30px;
+    border: 1px solid #F9FAF8; 
+    border-radius: 4px;
 }
 
 .footer {
