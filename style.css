@@ -98,7 +98,7 @@ The images have been given rounded corners with .rounded-images tha has been app
 .image-container {
 display: flex;
 flex-direction: row;
-margin: 40px;
+margin: 40px 60px 40px 60px;
 justify-content: space-evenly;
 }
 
